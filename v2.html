@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="jeuxcssv2.css" href="jeux.js">
+
+	<title>choix du fond</title>
+</head>
+<body>
+<div id="questionnaire">
+	<h1 id='titre' >PERSONNALISEZ VOTRE SITE </h1>
+
+	<div id="liste">
+		<p>
+			Ecrire "background-color:" suivit de votre couleur de fond du site(blue,red ou green ) <b><br>exemple:"background-color:blue" </b><input id='couleurfond' type=text onkeyup="imp();" >
+		</p>	
+
+		<p>
+			Ecrire "color:" suivit de votre couleur de titre(purple,yellow ou pink ) <b><br>exemple:"color:purple" </b><input id='colortitle' type=text onkeyup="imp();" >
+		</p>
+		<p>
+			Ecrire "background-color:" suivit de votre couleur de fond du titre(white,beige ou firebrick ) <b><br>exemple:"background-color:white"</b> <input id='fontcolor' type=text onkeyup="imp();">
+		</p>
+
+		<p>
+			Ecrire "color:" suivit de votre couleur de texte(maroon,white ) <b><br>exemple:"color:white"</b> <input id='fonttexte' type="list"  onkeyup="imp();">
+		</p>
+		<p>
+			Ecrire "text-align:" suivit de votre emplacement de texte(left,center ou right )<br> <b>exemple:"text-align:left" </b> <input id='placetext' type="list"  onkeyup="imp();">
+		</p>
+		<p>
+			Ecrire "font-size:" suivit de votre emplacement de texte(small,medium ou big ) <b><br>exemple:"font-size:small" </b> <input id='sizetext' type="list"  onkeyup="imp();">
+		</p>
+		<p>
+			Ecrire "src:" suivit de votre photo (cat,therock ou dog ) <b><br>exemple:"src:therock" </b> <input id='fotochoix' type="list"  onkeyup="imp();">
+		</p>
+		<p>
+			Ecrire "margin:" suivit de votre emplacement de bouton (left ou right) <b> <br>exemple:"margin:left"</b> <input id='placebutton' type="list"  onkeyup="imp();">
+		</p>
+		<p>
+			Ecrire "border-radius:" suivit de votre emplacement de bouton (rectangle,rond ou ovale) <b>exemple:"border-radius:rectangle"</b> <input id='butform' type="text" onkeyup="imp();">
+		</p>
+	</div>
+	
+<br><br>
+</div>
+
+
+<div id="resultat">
+	<h1 id="titrecouleur">VOTRE SITE CSS</h1>
+
+	<p id="textelorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus <br>
+    tempore ex harum exercitationem perferendis rem, reiciendis cumque<br>
+    dolores debitis eius facere sunt ipsum quam repellat laboriosam<br>
+    officiis nesciunt expedita quos?<br>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus <br>
+    tempore ex harum exercitationem perferendis rem, reiciendis cumque <br><br>
+    dolores debitis eius facere sunt ipsum quam repellat laboriosam <br>
+    officiis nesciunt expedita quos?<br>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus <br>
+    tempore ex harum exercitationem perferendis rem, reiciendis cumque<br>
+    dolores debitis eius facere sunt ipsum quam repellat laboriosam <br>
+    officiis nesciunt expedita quos?</p>
+
+    <img id="choiceimg"><br><br>
+  <div id="boite">
+    <p id="endroi">
+       <button id="butonmnu" > <a href="jeuxcss.html">Retour au menu</a></button>
+    </p>
+  </div>
+</div>
+
+
+</body>
+<script src="jeuxv2.js">imp();</script>
+</html>

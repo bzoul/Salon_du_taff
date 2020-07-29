@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="jeuxcss.css" href="jeux.js">
+
+	<title>choix du fond</title>
+</head>
+
+<div id="questionnaire">
+	<h1 id='titre' >PERSONNALISEZ VOTRE SITE </h1>
+<body id="body">
+	<div id="liste">
+		<p>
+			Quelle couleur voulez-vous pour le fond de votre site ? <input id='couleurfond' type=text oninput ="imp();" list=backgroudcolor >
+		</p>	
+
+		<p>
+			Quelle sera la couleur de votre titre ? <input id='colortitle' type=text list=titlecolor oninput ="imp();" >
+		</p>
+		<p>
+			Quelle sera la couleur de fond de votre titre? <input id='fontcolor' type=text list=titlebackground oninput ="imp();">
+		</p>
+
+		<p>
+			Quelle sera la couleur de votre texte? <input id='fonttexte' type="list" list=textcolor oninput ="imp();">
+		</p>
+		<p>
+			Comment sera presenté votre texte  <input id='placetext' type="list" list=textplacement oninput ="imp();">
+		</p>
+		<p>
+			Quelle sera la taille de votre texte  <input id='sizetext' type="list" list=textsize oninput ="imp();">
+		</p>
+		<p>
+			Quelle sera votre photo  <input id='fotochoix' type="list" list=photochoise oninput ="imp();">
+		</p>
+		<p>
+			Où voulez-vous le bouton "Retour au Menu"  <input id='placebutton' type="list" list=butonplace oninput ="imp();">
+		</p>
+		<p>
+			De quelle forme sera le bouton  <input id='butform' type="text" list=buttonform oninput ="imp();">
+		</p>
+	</div>
+	
+<datalist id=backgroudcolor >
+   <option> Bleu 
+   <option> Rouge
+   	<option> Vert
+</datalist>
+	
+<datalist id=titlecolor >
+   <option> Violet 
+   <option> Jaune
+   	<option> Rose
+</datalist>
+
+<datalist id=titlebackground >
+   <option> Blanc 
+   <option> Beige
+   	<option> FireBrick
+</datalist>
+
+<datalist id=textcolor >
+   <option> Blanc 
+   <option> Bordeaux
+</datalist>
+
+
+<datalist id=textplacement >
+   <option> Gauche 
+   <option> Centre
+   <option> Droite
+</datalist>
+	
+<datalist id=textsize >
+   <option> Petit </option>
+   <option> Normal</option>
+   	<option> Grand</option>
+</datalist>
+
+<datalist id=photochoise >
+   <option> Chat 
+   <option> The Rock
+   	<option> Chien
+</datalist>
+
+<datalist id=textcolor >
+   <option> Blanc 
+   <option> Noir
+</datalist>
+
+<datalist id=butonplace >
+   <option> Gauche 
+   <option> Droite
+</datalist>
+
+<datalist id=buttonform >
+   <option> Rectangle
+   <option> Rond 
+   	<option> Ovale 
+</datalist>
+</div>
+
+
+<div id="resultat">
+	<h1 id="titrecouleur">VOTRE SITE CSS</h1>
+
+	<p id="textelorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus <br>
+    tempore ex harum exercitationem perferendis rem, reiciendis cumque<br>
+    dolores debitis eius facere sunt ipsum quam repellat laboriosam<br>
+    officiis nesciunt expedita quos?<br>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus <br>
+    tempore ex harum exercitationem perferendis rem, reiciendis cumque <br><br>
+    dolores debitis eius facere sunt ipsum quam repellat laboriosam <br>
+    officiis nesciunt expedita quos?<br>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus <br>
+    tempore ex harum exercitationem perferendis rem, reiciendis cumque<br>
+    dolores debitis eius facere sunt ipsum quam repellat laboriosam <br>
+    officiis nesciunt expedita quos?</p>
+
+    <img id="choiceimg"><br><br>
+  <div id="boite">
+  <p id="endroi">
+     <button id="butonmnu" > <a href="jeuxcss.html">Retour au menu</a></button>
+  </p>
+  </div>
+</div>
+
+
+</body>
+<script src="jeux.js"></script>
+</html>
